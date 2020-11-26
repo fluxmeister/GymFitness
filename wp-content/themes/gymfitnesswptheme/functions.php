@@ -26,3 +26,12 @@ function gymfitness_scripts() {
     wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0');
 }
 add_action('wp_enqueue_scripts', 'gymfitness_scripts');
+
+// Enable Feature images and other stuff
+
+function gymfitness_setup() {
+
+    // Add featured image
+    add_theme_support( 'post-thumbnails');
+}
+add_action( 'after_setup_theme', 'gymfitness_setup'); // When the theme is activated and ready!
