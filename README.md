@@ -1,2 +1,4 @@
 # GymFitness
-WordPress theme making
+### WordPress theme making ###
+* just a testing 
+
