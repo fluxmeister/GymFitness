@@ -8,7 +8,7 @@
             <?php 
                 // check if an image exist
                 if( has_post_thumbnail() ):
-                    the_post_thumbnail();
+                    the_post_thumbnail('square');
                 else:
                     echo "<p> No image </p>";
                 endif;
