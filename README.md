@@ -1,5 +1,8 @@
 # GymFitness
-### <a href="https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-scratch/learn/lecture/16369342#overview">Professional WordPress Themes & Plugin Development</a> ###
+### Professional WordPress Themes & Plugin Development ###
+
+<a href="https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-scratch/learn/lecture/16369342#overview"><h1>Professional WordPress Themes & Plugin Development</h1></a>
+
 * Create a WordPress Theme with Twitter Bootstrap
 * Create 4 Different WordPress Themes
 * Convert 26 PSD files into WordPress Templates
