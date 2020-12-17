@@ -55,4 +55,4 @@ wp_enqueue_style('slicknavcss', get_template_directory_uri() . 'css/slicknav.min
 // Main Stylesheet
 wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0' );
 
-add_action( 'wp_enqueue_scripts', 'gymfitness_scripts')
+add_action( 'wp_enqueue_scripts', 'gymfitness_scripts');
