@@ -42,3 +42,17 @@ function gymfitness_setup() {
     add_theme_support('post-thumbnails');
 }
 add_action( 'after_setup_theme', 'gymfitness_setup'); // When the theme is activated and ready!
+
+// Normalize CSS
+wp_enqueue_style('normalize', get_template_directory_uri(), '/css/normalize.css', array(), '8.0.1');
+
+// Google font
+wp_enqueue_style('googlefont', 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900|Staatliches&display=swap', array(), '1.0.0');
+
+// Slicknav CSS
+wp_enqueue_style('slicknavcss', get_template_directory_uri() . 'css/slicknav.min.css', array(), '1.0.10');
+
+// Main Stylesheet
+wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0' );
+
+add_action( 'wp_enqueue_scripts', 'gymfitness_scripts')
