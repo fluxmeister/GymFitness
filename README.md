@@ -1,6 +1,9 @@
 # GymFitness
 ### Professional WordPress Themes & Plugin Development ###
 <html>
+    <head>
+    </head>
+    <body>
 <a href="https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-scratch/learn/lecture/16369342#overview"><h1>Professional WordPress Themes & Plugin Development</h1></a>
 
 * Create a WordPress Theme with Twitter Bootstrap
@@ -13,4 +16,5 @@
 * Create Mobile First WordPress Themes
 * Learn how to Write Secure WordPress Code
 * Learn how to create Options Pages in WordPress
+    </body>
 </html>
