@@ -1,0 +1,44 @@
+<?php
+
+// Creates the Menus
+function gymfitness_menus() {
+    // WordPress Functon
+    register_nav_menus( array(
+        'main-menu' => 'Main Menu', 
+        // 'main-menu2' => 'Main Menu 2', 
+        // 'social-menu' => 'Social Menu'
+    ) );
+}
+
+// Hook
+add_action('init', 'gymfitness_menus' );
+
+
+// Adds Stylesheets and JS Files
+function gymfitness_scripts() {
+    // Normalize CSS
+    wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), '8.0.1');
+
+    // Google font
+    wp_enqueue_style('googlefont', 'https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700;900&family=Staatliches&display=swap', array(), '1.0.0');
+
+    // Main Stylesheet
+    wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0');
+}
+add_action('wp_enqueue_scripts', 'gymfitness_scripts');
+
+// Enable Feature images and other stuff
+
+function gymfitness_setup() {
+
+    // Register new image size
+    add_image_size('square', 350, 350, true);
+    add_image_size( 'portrait', 350, 724, true );
+    add_image_size( 'box', 400, 375, true );
+    add_image_size( 'mediumSize', 700, 400, true );
+    add_image_size( 'blog', 966, 644, true );
+
+    // Add featured image
+    add_theme_support('post-thumbnails');
+}
+add_action( 'after_setup_theme', 'gymfitness_setup'); // When the theme is activated and ready!
