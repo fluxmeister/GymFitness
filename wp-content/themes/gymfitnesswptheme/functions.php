@@ -56,3 +56,16 @@ wp_enqueue_style('slicknavcss', get_template_directory_uri() . 'css/slicknav.min
 wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0' );
 
 add_action( 'wp_enqueue_scripts', 'gymfitness_scripts');
+
+// Creates a Widget Zone
+function gymfitness_widgets() {
+    register_sidebar( array(
+        'name' => 'Sidebar',
+        'id' => 'sidebar', 
+        'before_widget' => '<div class="widget">', 
+        'after_widget' => '</div>', 
+        'before_title' => '<h3>', 
+        'after_title' => '</h3>'
+    ));
+}
+add_action( 'widgets_init', 'gymfitness_widgets');
