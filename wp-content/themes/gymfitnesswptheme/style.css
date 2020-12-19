@@ -40,7 +40,7 @@
  
  /** Headings **/
  h1, h2, h3 {
-     font-family: var(--mainFont);
+     /* font-family: var(--mainFont); */
      margin: .5rem 0;
      line-height: 1.2;
  }
@@ -49,7 +49,7 @@
  }
  h2 {
      font-size: 4.8rem;
-     color: var(--primary);
+     /* color: var(--primary); */
  }
  h3 {
      font-size: 3.6rem;
@@ -194,7 +194,7 @@
  .main-menu a {
      color: var(--white);
      font-size: 2.8rem;
-     font-family: var(--mainFont);
+     /* font-family: var(--mainFont); */
      padding: .5rem 2rem;
  }
  @media (min-width: 768px) {
