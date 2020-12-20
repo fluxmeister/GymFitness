@@ -8,13 +8,13 @@
             <?php 
                 // check if an image exist
                 if( has_post_thumbnail() ):
-                    the_post_thumbnail('square');
+                    the_post_thumbnail('blog', array('class' => 'featured-image'));
                 endif;
             ?>
 
-            <div class="text-center">
-                <?php the_content(); ?>
-            </div>
+            
+            <?php the_content(); ?>
+            
         <?php endwhile; ?>
     
         <?php get_template_part('template-parts/page', 'loop'); ?>
