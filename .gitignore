@@ -98,3 +98,5 @@ Thumbs.db
 !wp-content/upgrade/
 !wp-content/mu-plugins/
 !wp-content/mu-plugins/*
+!wp-content/themes/gymfitnesswptheme/
+!wp-content/themes/gymfitnesswptheme/*
