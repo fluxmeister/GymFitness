@@ -211,6 +211,7 @@
  .main-menu .current_page_item {
      border-bottom: 3px solid var(--primary);
  }
+ 
  /** Mobile Menu **/
  @media (min-width: 768px) {
      .slicknav_menu {
