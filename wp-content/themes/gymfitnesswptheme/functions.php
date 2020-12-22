@@ -35,7 +35,7 @@ add_action('wp_enqueue_scripts', 'gymfitness_scripts');
 function gymfitness_setup() {
 
     // Register new image size
-    add_image_size('square', 350, 350, true);
+    add_image_size( 'square', 350, 350, true);
     add_image_size( 'portrait', 350, 724, true );
     add_image_size( 'box', 400, 375, true );
     add_image_size( 'mediumSize', 700, 400, true );

@@ -12,9 +12,19 @@
                 while($classes->have_posts()): $classes->the_post();
                 
             ?>
+            <li class="gym-class card gradient">
+                <?php the_post_thumbnail('mediumSize'); ?>
 
-            <h3><?php the_title(); ?></h3>
+                <div class="card-content">
+                    <a href="<?php the_permalink(); ?>">
+                        <h3><?php the_title(); ?></h3>
+                    </a>
+                </div>
 
+                
+
+            </li>
+            
             <?php endwhile; wp_reset_postdata(); ?>
         </ul>
     <?php }
