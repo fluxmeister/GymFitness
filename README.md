@@ -22,10 +22,11 @@ https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-s
 * Learn how to create Options Pages in WordPress
 ******************************************************************************************************  
 # Become a WordPress Developer: Unlocking Power with Code #
-https://www.youtube.com/watch?v=FVqzKAUsM68&ab_channel=LearnWebCode  
+" https://www.youtube.com/watch?v=FVqzKAUsM68&ab_channel=LearnWebCode "  
   
-The WordPress REST API:	https://developer.wordpress.org/rest-api/reference/	|| sitename/wp-json/wp/v2/resource
-Resource						Base Route
+The WordPress REST API:	https://developer.wordpress.org/rest-api/reference/	|| sitename/wp-json/wp/v2/resource  
+
+Resource						Base Route  
 ============================================================================  
 Posts							/wp/v2/posts  
 Post Revisions				/wp/v2/posts/<id>/revisions  
