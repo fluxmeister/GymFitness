@@ -20,11 +20,11 @@ https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-s
 * Create Mobile First WordPress Themes
 * Learn how to Write Secure WordPress Code
 * Learn how to create Options Pages in WordPress
- ******************************************************************************************************  
- # Become a WordPress Developer: Unlocking Power with Code
- https://www.youtube.com/watch?v=FVqzKAUsM68&ab_channel=LearnWebCode
+******************************************************************************************************  
+# Become a WordPress Developer: Unlocking Power with Code
+https://www.youtube.com/watch?v=FVqzKAUsM68&ab_channel=LearnWebCode
 
- The WordPress REST API:	https://developer.wordpress.org/rest-api/reference/	|| sitename/wp-json/wp/v2/resource
+The WordPress REST API:	https://developer.wordpress.org/rest-api/reference/	|| sitename/wp-json/wp/v2/resource
 Resource						Base Route
 ============================================================================  
 Posts							/wp/v2/posts
