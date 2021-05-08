@@ -1,8 +1,11 @@
 # GymFitness
 ### Professional WordPress Themes & Plugin Development ###
-
+******************************************************************************************************  
 https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-scratch/learn/lecture/16369342#overview Professional WordPress Themes & Plugin Development
-
+******************************************************************************************************  
+080521	: 	Updates done  
+		:	
+******************************************************************************************************  
 * Create a WordPress Theme with Twitter Bootstrap
 * Create 4 Different WordPress Themes
 * Convert 26 PSD files into WordPress Templates
@@ -99,3 +102,28 @@ Plugins							/wp/v2/plugins
 			<?php }
 		
 		?>
+==============================================================================
+testing:
+<?php
+		
+	while(have_posts()) {
+		the_post(); ?>
+		
+		<h2><?php the_title(); ?></h2>					<!-- the_title() displays a blog's title. This way we have a title for each post.-->
+		<?php the_content(); ?>								<!-- the content() displays a post's content; ?>
+		<hr>															<!-- "horizontal rule just for making visual separation between each post--->"
+	<?php }
+
+?>
+
+<?php
+		
+	while(have_posts()) {
+		the_post(); ?>
+		
+		<h2><a href="<?php  the_permalink(); ?>"><?php the_title(); ?></a></h2>			
+		<?php the_content(); ?>								<!-- the content() displays a post's content; ?>
+		<hr>															<!-- "horizontal rule just for making visual separation between each post--->
+	<?php }
+
+?>
