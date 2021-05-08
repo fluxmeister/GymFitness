@@ -4,7 +4,11 @@
 https://www.udemy.com/course/photoshop-psd-to-wordpress-theme-development-from-scratch/learn/lecture/16369342#overview Professional WordPress Themes & Plugin Development
 ******************************************************************************************************  
 080521	: 	Updates done  
-		:	
+		:	Regenerate Thumbnails  
+		: 	Starter Templates  
+		: 	Which Template Am I  
+		:	ACF to REST API  
+		
 ******************************************************************************************************  
 * Create a WordPress Theme with Twitter Bootstrap
 * Create 4 Different WordPress Themes
